@@ -271,4 +271,19 @@ Wire Wire Line
 Wire Wire Line
 	3400 2800 3400 2550
 Connection ~ 3300 2800
+$Comp
+L CONN_2 P101
+U 1 1 539131C2
+P 8800 2450
+F 0 "P101" V 8750 2450 40  0000 C CNN
+F 1 "CONN_2" V 8850 2450 40  0000 C CNN
+F 2 "" H 8800 2450 60  0000 C CNN
+F 3 "" H 8800 2450 60  0000 C CNN
+	1    8800 2450
+	0    -1   -1   0   
+$EndComp
+Text Notes 8400 2100 0    60   ~ 0
+Temperature test point
+Text Notes 9050 2300 0    40   ~ 0
+Pinout:\n1: V+\n2: V-
 $EndSCHEMATC
