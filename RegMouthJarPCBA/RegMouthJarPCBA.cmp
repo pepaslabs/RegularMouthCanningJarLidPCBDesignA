@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/5/2014 9:27:20 PM
+
+BeginCmp
+TimeStamp = /5390FEE5;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = BARREL_JACK_21x55;
+EndCmp
+
+BeginCmp
+TimeStamp = /539100E7;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /539100F6;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390FF87;
+Reference = J1;
+ValeurCmp = 4P4C;
+IdModule  = A-2014-3-4-N-T-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390FF96;
+Reference = J2;
+ValeurCmp = 4P4C;
+IdModule  = A-2014-3-4-N-T-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /539126EB;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390FFFB;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390FFE4;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+EndListe
