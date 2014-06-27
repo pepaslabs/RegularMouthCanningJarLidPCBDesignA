@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 6/26/2014 7:26:38 PM
+EESchema-DOCLIB  Version 2.0  Date: 5/4/2014 4:07:23 PM
 #
 $CMP POT
 D Potentionmeter
@@ -33,10 +33,6 @@ $ENDCMP
 $CMP R_1W
 D Resistor 1W 5% Carbon Film
 K R DEV
-$ENDCMP
-#
-$CMP R_FOIL
-D Metal Foil Precision Resistor
 $ENDCMP
 #
 #End Doc Library
