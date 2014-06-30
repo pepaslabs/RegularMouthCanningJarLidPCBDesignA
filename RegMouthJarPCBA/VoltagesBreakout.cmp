@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/29/2014 8:57:53 PM
+
+BeginCmp
+TimeStamp = /53B0C2D1;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C2E0;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C2EF;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C308;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C1AE;
+Reference = J1;
+ValeurCmp = 8P8C;
+IdModule  = A-2004-1-4-LP-N-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C20C;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C21B;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C22A;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C239;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C248;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C257;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C266;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0C275;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+EndListe

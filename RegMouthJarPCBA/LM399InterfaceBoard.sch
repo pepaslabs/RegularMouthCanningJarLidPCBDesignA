@@ -1,0 +1,426 @@
+EESchema Schematic File Version 2
+LIBS:analog_ICs_PL
+LIBS:capacitors_PL
+LIBS:connectors_PL
+LIBS:diodes_PL
+LIBS:displays_PL
+LIBS:heater_plate-cache
+LIBS:LEDs_PL
+LIBS:microcontrollers_PL
+LIBS:mounting_holes_PL
+LIBS:noname-cache
+LIBS:opamps
+LIBS:opto_PL
+LIBS:regulators_PL
+LIBS:relays_PL
+LIBS:resistor_plate-cache
+LIBS:resistors_PL
+LIBS:switches_PL
+LIBS:transistors_PL
+LIBS:vref_PL
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "30 jun 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BARREL_JACK CON?
+U 1 1 53B0B7DE
+P 1350 1400
+F 0 "CON?" H 1350 1600 40  0000 C CNN
+F 1 "BARREL_JACK" H 1350 1250 40  0000 C CNN
+F 2 "~" H 1350 1400 60  0000 C CNN
+F 3 "~" H 1350 1400 60  0000 C CNN
+	1    1350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BARREL_JACK CON?
+U 1 1 53B0B7ED
+P 1400 2200
+F 0 "CON?" H 1400 2400 40  0000 C CNN
+F 1 "BARREL_JACK" H 1400 2050 40  0000 C CNN
+F 2 "~" H 1400 2200 60  0000 C CNN
+F 3 "~" H 1400 2200 60  0000 C CNN
+	1    1400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53B0B7FC
+P 1750 1600
+F 0 "#PWR?" H 1750 1600 30  0001 C CNN
+F 1 "GND" H 1750 1530 30  0001 C CNN
+F 2 "" H 1750 1600 60  0000 C CNN
+F 3 "" H 1750 1600 60  0000 C CNN
+	1    1750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53B0B80B
+P 1800 2400
+F 0 "#PWR?" H 1800 2400 30  0001 C CNN
+F 1 "GND" H 1800 2330 30  0001 C CNN
+F 2 "" H 1800 2400 60  0000 C CNN
+F 3 "" H 1800 2400 60  0000 C CNN
+	1    1800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2300 1800 2300
+Wire Wire Line
+	1800 2200 1800 2400
+Wire Wire Line
+	1700 2200 1800 2200
+Connection ~ 1800 2300
+Wire Wire Line
+	1650 1500 1750 1500
+Wire Wire Line
+	1750 1400 1750 1600
+Wire Wire Line
+	1650 1400 1750 1400
+Connection ~ 1750 1500
+Wire Wire Line
+	1650 1300 1750 1300
+Wire Wire Line
+	1750 1300 1750 1200
+Wire Wire Line
+	1700 2100 1800 2100
+Wire Wire Line
+	1800 2100 1800 2000
+Text GLabel 1750 1200 1    60   Input ~ 0
+36V
+Text GLabel 1800 2000 1    60   Input ~ 0
+9V
+$Comp
+L JUMPER JP?
+U 1 1 53B0B840
+P 2700 1950
+F 0 "JP?" H 2700 2100 60  0000 C CNN
+F 1 "JUMPER" H 2700 1870 40  0000 C CNN
+F 2 "~" H 2700 1950 60  0000 C CNN
+F 3 "~" H 2700 1950 60  0000 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 1850 1    60   Input ~ 0
+36V
+Text GLabel 3100 1850 1    60   Input ~ 0
+9V
+Wire Wire Line
+	2300 1850 2300 1950
+Wire Wire Line
+	2300 1950 2400 1950
+Wire Wire Line
+	3000 1950 3100 1950
+Wire Wire Line
+	3100 1950 3100 1850
+$Comp
+L BARREL_JACK CON?
+U 1 1 53B0B873
+P 1450 3000
+F 0 "CON?" H 1450 3200 40  0000 C CNN
+F 1 "BARREL_JACK" H 1450 2850 40  0000 C CNN
+F 2 "~" H 1450 3000 60  0000 C CNN
+F 3 "~" H 1450 3000 60  0000 C CNN
+	1    1450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53B0B879
+P 1850 3200
+F 0 "#PWR?" H 1850 3200 30  0001 C CNN
+F 1 "GND" H 1850 3130 30  0001 C CNN
+F 2 "" H 1850 3200 60  0000 C CNN
+F 3 "" H 1850 3200 60  0000 C CNN
+	1    1850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3100 1850 3100
+Wire Wire Line
+	1850 3000 1850 3200
+Wire Wire Line
+	1750 3000 1850 3000
+Connection ~ 1850 3100
+Wire Wire Line
+	1750 2900 1850 2900
+Wire Wire Line
+	1850 2900 1850 2800
+Text GLabel 1850 2800 1    60   Input ~ 0
+H+
+$Comp
+L JUMPER JP?
+U 1 1 53B0B899
+P 2750 2750
+F 0 "JP?" H 2750 2900 60  0000 C CNN
+F 1 "JUMPER" H 2750 2670 40  0000 C CNN
+F 2 "~" H 2750 2750 60  0000 C CNN
+F 3 "~" H 2750 2750 60  0000 C CNN
+	1    2750 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 2650 1    60   Input ~ 0
+36V
+Text GLabel 3150 2650 1    60   Input ~ 0
+H+
+Wire Wire Line
+	2350 2650 2350 2750
+Wire Wire Line
+	2350 2750 2450 2750
+Wire Wire Line
+	3050 2750 3150 2750
+Wire Wire Line
+	3150 2750 3150 2650
+$Comp
+L 4P4C J?
+U 1 1 53B0B8F2
+P 12250 1900
+F 0 "J?" H 12450 2400 60  0000 C CNN
+F 1 "4P4C" H 12100 2400 60  0000 C CNN
+F 2 "~" H 12250 1900 60  0000 C CNN
+F 3 "~" H 12250 1900 60  0000 C CNN
+	1    12250 1900
+	1    0    0    -1  
+$EndComp
+Text Notes 12750 1750 0    40   ~ 0
+Pinout:\n1: My RX, Your TX\n2: GND\n3: GND\n4: My TX, Your RX
+Text Notes 12000 1250 0    60   ~ 0
+Oven Serial
+$Comp
+L CONN_4 P?
+U 1 1 53B0B9C6
+P 13000 2300
+F 0 "P?" V 12950 2300 50  0000 C CNN
+F 1 "CONN_4" V 13050 2300 50  0000 C CNN
+F 2 "~" H 13000 2300 60  0000 C CNN
+F 3 "~" H 13000 2300 60  0000 C CNN
+	1    13000 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12100 2350 12100 2750
+Wire Wire Line
+	12100 2750 12850 2750
+Wire Wire Line
+	12850 2750 12850 2650
+Wire Wire Line
+	12200 2350 12200 2850
+Wire Wire Line
+	12200 2850 12950 2850
+Wire Wire Line
+	12950 2850 12950 2650
+Wire Wire Line
+	12350 2350 12350 2950
+Wire Wire Line
+	12350 2950 13050 2950
+Wire Wire Line
+	13050 2950 13050 2650
+Wire Wire Line
+	12450 2350 12450 3050
+Wire Wire Line
+	12450 3050 13150 3050
+Wire Wire Line
+	13150 3050 13150 2650
+$Comp
+L CONN_2 P?
+U 1 1 53B0BA57
+P 14200 2350
+F 0 "P?" V 14150 2350 40  0000 C CNN
+F 1 "CONN_2" V 14250 2350 40  0000 C CNN
+F 2 "~" H 14200 2350 60  0000 C CNN
+F 3 "~" H 14200 2350 60  0000 C CNN
+	1    14200 2350
+	0    -1   -1   0   
+$EndComp
+Text Notes 14450 2350 0    40   ~ 0
+Pinout:\n1: V+\n2: V-
+Text Notes 14050 2150 0    60   ~ 0
+Temperature test point
+$Comp
+L BARREL_JACK CON?
+U 1 1 53B0BAA9
+P 1500 4050
+F 0 "CON?" H 1500 4250 40  0000 C CNN
+F 1 "BARREL_JACK" H 1500 3900 40  0000 C CNN
+F 2 "~" H 1500 4050 60  0000 C CNN
+F 3 "~" H 1500 4050 60  0000 C CNN
+	1    1500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53B0BAAF
+P 1900 4250
+F 0 "#PWR?" H 1900 4250 30  0001 C CNN
+F 1 "GND" H 1900 4180 30  0001 C CNN
+F 2 "" H 1900 4250 60  0000 C CNN
+F 3 "" H 1900 4250 60  0000 C CNN
+	1    1900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4150 1900 4150
+Wire Wire Line
+	1900 4050 1900 4250
+Wire Wire Line
+	1800 4050 1900 4050
+Connection ~ 1900 4150
+Wire Wire Line
+	1800 3950 1900 3950
+Wire Wire Line
+	1900 3950 1900 3850
+Text GLabel 1900 3850 1    60   Input ~ 0
+Oven+
+$Comp
+L 8P8C J?
+U 1 1 53B0BC48
+P 12250 5300
+F 0 "J?" H 12300 6150 40  0000 C CNN
+F 1 "8P8C" H 12900 6150 40  0000 C CNN
+F 2 "~" H 12550 5750 60  0000 C CNN
+F 3 "~" H 12550 5750 60  0000 C CNN
+	1    12250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 53B0BC9D
+P 13450 5500
+F 0 "P?" V 13400 5500 40  0000 C CNN
+F 1 "CONN_2" V 13500 5500 40  0000 C CNN
+F 2 "~" H 13450 5500 60  0000 C CNN
+F 3 "~" H 13450 5500 60  0000 C CNN
+	1    13450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 53B0BCAC
+P 13450 5900
+F 0 "P?" V 13400 5900 40  0000 C CNN
+F 1 "CONN_2" V 13500 5900 40  0000 C CNN
+F 2 "~" H 13450 5900 60  0000 C CNN
+F 3 "~" H 13450 5900 60  0000 C CNN
+	1    13450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 53B0BCBB
+P 13450 6300
+F 0 "P?" V 13400 6300 40  0000 C CNN
+F 1 "CONN_2" V 13500 6300 40  0000 C CNN
+F 2 "~" H 13450 6300 60  0000 C CNN
+F 3 "~" H 13450 6300 60  0000 C CNN
+	1    13450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 53B0BCDE
+P 13450 6700
+F 0 "P?" V 13400 6700 40  0000 C CNN
+F 1 "CONN_2" V 13500 6700 40  0000 C CNN
+F 2 "~" H 13450 6700 60  0000 C CNN
+F 3 "~" H 13450 6700 60  0000 C CNN
+	1    13450 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 53B0BDE7
+P 14850 2950
+F 0 "P?" V 14800 2950 40  0000 C CNN
+F 1 "CONN_2" V 14900 2950 40  0000 C CNN
+F 2 "~" H 14850 2950 60  0000 C CNN
+F 3 "~" H 14850 2950 60  0000 C CNN
+	1    14850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 2700 14100 2850
+Wire Wire Line
+	14100 2850 14500 2850
+Wire Wire Line
+	14300 2700 14300 3050
+Wire Wire Line
+	14300 3050 14500 3050
+Wire Wire Line
+	12250 5300 12250 5400
+Wire Wire Line
+	12250 5400 13100 5400
+Wire Wire Line
+	12350 5300 12350 5600
+Wire Wire Line
+	12350 5600 13100 5600
+Wire Wire Line
+	12450 5300 12450 5800
+Wire Wire Line
+	12450 5800 13100 5800
+Wire Wire Line
+	12550 5300 12550 6000
+Wire Wire Line
+	12550 6000 13100 6000
+Wire Wire Line
+	12700 5300 12700 6200
+Wire Wire Line
+	12700 6200 13100 6200
+Wire Wire Line
+	12800 5300 12800 6400
+Wire Wire Line
+	12800 6400 13100 6400
+Wire Wire Line
+	12900 5300 12900 6600
+Wire Wire Line
+	12900 6600 13100 6600
+Wire Wire Line
+	13000 5300 13000 6800
+Wire Wire Line
+	13000 6800 13100 6800
+Text Notes 13250 4550 0    40   ~ 0
+Pinout:\n1: 29V\n2: GND\n3: 2.9V\n4: GND\n5: 290mV\n6: GND\n7: 29mV\n8: GND
+Text Notes 12250 4300 0    60   ~ 0
+Reference Voltages
+$EndSCHEMATC
