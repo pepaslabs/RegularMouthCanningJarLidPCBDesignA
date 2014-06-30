@@ -51,7 +51,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "7 jun 2014"
+Date "30 jun 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -133,4 +133,6 @@ F 3 "~" H 4950 4150 60  0000 C CNN
 	1    4950 4150
 	1    0    0    -1  
 $EndComp
+Text Notes 5900 2850 0    40   ~ 0
+Pinout:\n1: Sense+\n2: Force+\n3: Force-\n4: Sense-
 $EndSCHEMATC

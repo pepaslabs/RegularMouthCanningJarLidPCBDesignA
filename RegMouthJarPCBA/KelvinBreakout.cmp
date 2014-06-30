@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/30/2014 1:12:20 AM
+
+BeginCmp
+TimeStamp = /53B0FFA6;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FFB5;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FFC4;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FFD3;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FE0C;
+Reference = J1;
+ValeurCmp = 4P4C;
+IdModule  = A-2014-3-4-N-T-R_059Bo;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FE1B;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FE2A;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FE39;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B0FE48;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = Banana_A;
+EndCmp
+
+EndListe
