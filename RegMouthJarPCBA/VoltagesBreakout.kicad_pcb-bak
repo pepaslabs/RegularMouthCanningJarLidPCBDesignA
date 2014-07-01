@@ -3,7 +3,7 @@
   (general
     (links 8)
     (no_connects 0)
-    (area 128.219999 106.629999 242.620001 156.260001)
+    (area 127.658999 106.295999 242.954001 156.594001)
     (thickness 1.6)
     (drawings 18)
     (tracks 45)
@@ -60,7 +60,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFBF)
     (pcbplotparams
-      (layerselection 3178497)
+      (layerselection 284196865)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -82,9 +82,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerbers_volt_breakout/))
   )
 
   (net 0 "")
