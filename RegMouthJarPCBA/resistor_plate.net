@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:/Documents and Settings/Jason Pepas/My Documents/Dropbox/git/pepaslabs/RegularMouthCanningJarLidPCBDesignA/RegMouthJarPCBA/resistor_plate.sch")
-    (date "6/7/2014 12:11:56 AM")
+    (source "C:/Documents and Settings/Jason/My Documents/Dropbox/git/pepaslabs/RegularMouthCanningJarLidPCBDesignA/RegMouthJarPCBA/resistor_plate.sch")
+    (date "6/30/2014 9:54:38 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R1)
